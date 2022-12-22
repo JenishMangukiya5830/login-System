@@ -3,5 +3,5 @@ module.exports.setFlash = (req,res,next) => {
         "success" : req.flash('success'),
         "error" : req.flash("error")
     }
-    next()
+    next();
 }
